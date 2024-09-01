@@ -1,15 +1,15 @@
-import React, { useState } from 'react'; // Import useState from React
+import React, { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar'; // Ensure the import path is correct
+import Navbar from './components/Navbar/Navbar'; 
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Navbar />
-      {/* Additional UI elements can go here */}
-    </>
+    <div className="app">
+      <Navbar/>
+      {}
+    </div>
   );
 }
 

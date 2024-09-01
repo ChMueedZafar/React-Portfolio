@@ -1,11 +1,20 @@
-import './Navbar/Navbar.css'; // Import the CSS for styling
+import { Link } from "react-scroll";
 
-const Navbar = () => (
-    <div className="navbar">
-        <div className="logo">
-            <h1 className="logo-text">Mueed</h1> {/* Changed from div to h1 for semantic HTML */}
+export default function Navbar() {
+    return (
+        <div className="navbar">
+            <h1 className="logo">Mueedzafar</h1>
+        <div className="listItems">
+            <link className="list">Home</link>
+            <link className="list">About</link>
+            <link className="list">Skills</link>
+            <link className="list">Project</link>
         </div>
-    </div>
-);
+        <div className="btnNav">
+            <button>Contact Me</button>
+        </div>
 
-export default Navbar;
+        </div>
+
+    );
+}
