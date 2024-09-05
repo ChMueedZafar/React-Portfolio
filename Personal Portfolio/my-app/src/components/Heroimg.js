@@ -1,6 +1,6 @@
 import "./HeroimgStyle.css";
 import React from 'react'
-import IntroImg from "../assets/download.jpg";
+import IntroImg from "../assets/scott-graham-5fNmWej4tAA-unsplash.jpg";
 import { Link } from "react-router-dom";
 const Heroimg = () => {
   return (

@@ -1,13 +1,17 @@
 import React from 'react';
-
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import HeroImg2 from '../components/HeroImg2';
 
 const About = () => {
   return (
     <div>
-      <h1>About Us</h1>
+      
+      <Navbar/>
+      <HeroImg2 heading="ABOUT." text ="Im a Friendly Front-end Developer."/>
+      <Footer/>
     </div>
   );
 };
 
 export default About;
-

@@ -1,9 +1,15 @@
 import React from 'react'
 
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import HeroImg2 from '../components/HeroImg2';
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+
+      <Navbar/>
+      <HeroImg2 heading="CONTACT." text ="lets have a chat."/>
+      <Footer/>
     </div>
   )
 }
