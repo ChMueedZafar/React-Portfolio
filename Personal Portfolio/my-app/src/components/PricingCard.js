@@ -39,7 +39,6 @@ const PricingCard = () => {
                 <Link to="/Contact" className="btn">PURCHASE NOW</Link>
                 
             </div>
-
         </div>
     </div>
   )
