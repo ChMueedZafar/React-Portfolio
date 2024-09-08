@@ -4,17 +4,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Outfit", sans-serif; 
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-  background-color: #000;  
+  background-color: #000;
   color: #fff;
 }
 
 h1, h4, p, a {
-  color: #fff; 
-  text-decoration: none; 
+  color: #fff;
+  text-decoration: none; /* Remove underline for all links by default */
 }
 
 ul {
@@ -25,32 +25,37 @@ ul {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background-color: rgb(248, 217, 15); 
-  color: #223; 
+  background-color: rgb(248, 217, 15);
+  color: #223;
   border: 1px solid #fff;
-  font-weight: 600; 
-  cursor: pointer; 
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.btn-light {
-  background: transparent;
-  color: #fff; 
-  border: 1px solid #fff; 
-  padding: 12px 32px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 600; 
-  cursor: pointer; 
+  font-weight: 600;
+  cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #000; 
+  background-color: #f7b500; /* Darker yellow on hover */
+  color: #000; /* Text color on hover */
+}
+
+.btn-light {
+  background-color: #223;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-light:hover {
+  background-color: gray;
+  color: white;
 }
 
 a:hover {
-  color: rgb(248, 217, 15); 
-  text-decoration: underline; 
+  color: rgb(248, 217, 15);
+  text-decoration: underline;
 }
