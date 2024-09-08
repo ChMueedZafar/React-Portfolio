@@ -15,26 +15,26 @@
 .project-card {
     background-color: #1a1a1a;
     padding: 1.2rem 1rem;
-    border-radius: 8px; /* Optional: adds rounded corners */
-    overflow: hidden; /* Optional: ensures content stays within the rounded corners */
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .project-card img {
     width: 100%;
-    border-radius: 8px; /* Optional: rounds the corners of the image */
+    border-radius: 8px;
 }
 
 .project-title {
     color: #fff;
     padding: 1rem 0;
-    font-size: 1.5rem; /* Optional: makes the title a bit larger */
+    font-size: 1.5rem;
 }
 
 .project-details p {
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
-    color: #ddd; /* Optional: lightens text color for better readability */
+    color: #ddd;
 }
 
 .pro-btns {
@@ -47,13 +47,13 @@
     padding: 0.5rem 1rem;
     text-decoration: none; 
     color: #fff; 
-    background-color: #007bff; 
+    background-color: rgb(248, 217, 15); 
     border-radius: 4px; 
     transition: background-color 0.3s ease; 
 }
 
 .pro-btns .btn:hover {
-    background-color: #0056b3; 
+    background-color: rgb(248, 217, 15); 
 }
 
 @media screen and (max-width: 740px) {

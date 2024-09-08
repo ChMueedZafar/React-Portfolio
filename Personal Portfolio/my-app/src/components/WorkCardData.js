@@ -7,18 +7,18 @@ const ProjectCardData = [
         imgsrc: pro1,
         title: "Ecommerce Website Design",
         text: "Thriving Facebook community and top-ranked podcast, Any inspires a grounded, tangible, and self-affirming sense of ~Wow! I really can do this~ for over 100,000 online entrepreneurs. Best-selling market course.",
-        view: "https://webclone.com"
+        view: "https://amazone.com"
     },
     {
         imgsrc: pro2,
         title: "S-Calculator",
-        text: "Thriving Facebook community and top-ranked podcast, Any inspires a grounded, tangible, and self-affirming sense of ~Wow! I really can do this~ for over 100,000 online entrepreneurs. Best-selling market course.",
-        view: "https://calculator.com"
+        text: "This project highlights my ability to integrate front-end technologies to create interactive and practical web applications.",
+        view: "https://s-calculator.surge.sh/"
     },
     {
         imgsrc: pro3,
         title: "Personal Portfolio Design",
-        text: "Thriving Facebook community and top-ranked podcast, Any inspires a grounded, tangible, and self-affirming sense of ~Wow! I really can do this~ for over 100,000 online entrepreneurs. Best-selling market course.",
+        text: "This portfolio not only demonstrates my design skills but also serves as a comprehensive showcase of my professional capabilities and accomplishments. This website Make with using HTML,CSS,Bootstrap and Javascript",
         view: "https://portfolio.com"
     }
 ];

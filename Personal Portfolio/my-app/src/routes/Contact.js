@@ -1,18 +1,16 @@
-import React from 'react'
+import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import HeroImg2 from '../components/HeroImg2';
-import Form  from '../components/Form';
-const Contact = () => {
-  return (
-    <div>
+import Form from '../components/Form';
 
-      <Navbar/>
-      <HeroImg2 heading="CONTACT." text ="lets have a chat."/>
-      <Form/>
-      <Footer/>
-    </div>
-  )
-}
+const Contact = () => (
+  <div>
+    <Navbar />
+    <HeroImg2 heading="CONTACT." text="Let's have a chat." />
+    <Form />
+    <Footer />
+  </div>
+);
 
-export default Contact
+export default Contact;

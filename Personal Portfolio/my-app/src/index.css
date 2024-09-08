@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -7,23 +7,19 @@
   font-family: "Outfit", sans-serif; 
 }
 
-
 body {
   background-color: #000;  
   color: #fff;
 }
-
 
 h1, h4, p, a {
   color: #fff; 
   text-decoration: none; 
 }
 
-
 ul {
   list-style-type: none;
 }
-
 
 .btn {
   padding: 12px 32px;
@@ -49,7 +45,12 @@ ul {
   transition: background-color 0.3s, color 0.3s;
 }
 
-.btn:hover{
-  background-color: rgba(255, 255, 255,0);
-  color: white;
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #000; 
+}
+
+a:hover {
+  color: rgb(248, 217, 15); 
+  text-decoration: underline; 
 }
